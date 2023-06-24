@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Film</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../css/popular.css">
+  <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h2 class="name">Through My Window</h2>
+      <p class="desc">
+        Through My Window kể về Raquel thích chàng hàng xóm từ lâu, và giờ tình ý ấy bỗng tiến triển xa hơn khi anh bắt đầu có tình cảm với cô – bất chấp sự phản đối của gia đình.
+      </p>
+      <button class="watch">Watch now</button>
+    </div>
+    <nav class="nav-wrapper">
+        <div class="nav-logo">
+          <img src="../assets/myLogo.png" />
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./coming.html">Coming</a></li>
+            <li><a href="./popular.html">Popular</a></li>
+            <div class="animation start-home"></div>
+          </ul>
+        </div>
+        <div class="nav-search">
+          <input type="text" placeholder="Search film" />
+          <a href="#"
+            ><button class="nav-search-btn">
+              <i class="bx bx-search-alt"></i></button
+          ></a>
+        </div>
+        <div class="navbar nav-account">
+          <ul>
+            <li><a href="./login.html">Sign in</a></li>
+            <li><a href="./register.html">Sign up</a></li>
+            <div class="animation start-home"></div>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav use for responsive -->
+      <div class="nav-toggle"><i class='bx bx-menu'></i></div>
+      <div class="nav-resp">
+        <ul>
+          <li class="list">
+            <a href="../index.html">
+              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="title">Home</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="./contact.html">
+              <span class="icon"
+                ><i class="fa-regular fa-address-book"></i
+              ></span>
+              <span class="title">Contact</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="./coming.html">
+              <span class="icon"><i class="bx bx-timer"></i></span>
+              <span class="title">Coming</span>
+            </a>
+          </li>
+          <li class="list active">
+            <a href="./popular.html">
+              <span class="icon"><i class="fa-solid fa-fire"></i></span>
+              <span class="title">Popular</span>
+            </a>
+          </li>
+          <div class="animation start-home"></div>
+          <hr>
+          <li class="list">
+            <a href="./login.html">
+              <span class="icon"
+                ><i class="fa-solid fa-arrow-right-to-bracket"></i
+              ></span>
+              <span class="title">Sign in</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="./login.html">
+              <span class="icon"><i class="fa-regular fa-registered"></i></span>
+              <span class="title">Sign up</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </header>
+  <div class="list-container">
+    <div class="list-title">
+      <h4>online streaming</h4>
+      <h2>Popular Film</h2>
+    </div>
+    <!-- list card -->
+    <div class="list-wrapper">
+    </div>
+  </div>
+  <footer>
+    <div class="footer-top">
+      <div class="logo">
+        <img src="../assets/myLogo.png" alt="Logo" />
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Coming</a></li>
+          <li><a href="">Popular</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="footer-bottom">
+      <div class="quick-link">
+        <ul>
+          <li>FAQ</li>
+          <li>help center</li>
+          <li>terms of use</li>
+          <li>privacy</li>
+        </ul>
+      </div>
+      <div class="socal">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="../app/popular.js"></script>
+</body>
+</html>

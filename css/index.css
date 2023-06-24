@@ -402,13 +402,17 @@ header .nav-search-btn i {
   transition: var(--transition);
 }
 
+.newFilm-container .title .title-right button.active {
+  background-color: var(--mainColor);
+}
+
 .newFilm-container .title .title-right button:hover {
   background-color: var(--mainColor);
 }
 
 .newFilm-list-wrapper {
   width: 100%;
-  padding-inline: 70px;
+  padding-inline: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
