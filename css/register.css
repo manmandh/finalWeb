@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(2, 2, 40);
+  z-index: 0;
+  padding: 10px;
+}
+
+.container:before {
+  content: "";
+  background: url(../assets/login_background.svg) center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #eee;
+  width: 500px;
+  border: 2px solid #eee;
+  border-radius: 15px;
+  position: relative;
+  backdrop-filter: blur(15px);
+}
+
+form {
+  padding: 30px 15px;
+  -webkit-box-reflect: below 30px
+    linear-gradient(to bottom, transparent, transparent, transparent, #000);
+}
+form .title {
+  text-align: center;
+  text-transform: uppercase;
+}
+form .input {
+  width: 100%;
+  position: relative;
+}
+form .input input {
+  width: 100%;
+  padding: 20px 10px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  color: #eee;
+  font-size: 17px;
+}
+form .input input:focus + span,
+form .input input:not(:placeholder-shown) + span {
+  top: 10px;
+  font-size: 10px;
+  color: #eee;
+}
+form .input span {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #909090;
+  transition: 0.5s;
+  pointer-events: none;
+}
+form .input i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #909090;
+}
+form .note {
+  display: flex;
+  justify-content: space-between;
+}
+form .note .forgot a {
+  text-decoration: none;
+  color: #eee;
+}
+form .note .forgot a:hover {
+  text-decoration: underline;
+}
+form .note label {
+  user-select: none;
+}
+form button {
+  color: #eee;
+  font-weight: 500;
+  font-size: 20px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  transition: 0.5s;
+  padding: 10px;
+}
+form button:hover {
+  background-color: #00aedf;
+  box-shadow: 0 0 10px #00aedf, 0 0 20px #00aedf, 0 0 30px #00aedf;
+}
+form .signup a {
+  text-decoration: none;
+  color: #eee;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+form .signup a:hover {
+  text-decoration: underline;
+}
+
+form .sign-in a {
+  color: #eee;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.fancy_1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  background: linear-gradient(to top right, #601aa9, #00aedf);
+  z-index: 0;
+  border-radius: 37% 63% 66% 34%/30% 48% 52% 70%;
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 680px){
+  form {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=login.css.map */

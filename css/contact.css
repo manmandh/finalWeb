@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&display=swap");
+:root {
+  --mainColor: #de591c;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #0d0d3b;
+  color: #eee;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 50px;
+  padding: 20px;
+  background: url(../assets/contact_background.svg);
+}
+.container main {
+  display: flex;
+  gap: 50px;
+}
+.container main .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.container main .left .logo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container main .left .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container main .left .email {
+  font-size: 25px;
+}
+.container main .right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.container main .right textarea {
+  width: 100%;
+  height: 500px;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  color: rgba(238, 238, 238, 0.9333333333);
+  border: none;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+}
+.container main .right form {
+  position: relative;
+}
+.container main .right form button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  bottom: 0;
+  left: 100%;
+  background-color: #de591c;
+  color: #eee;
+  font-weight: 500;
+  transform: translate(-100%, 50%);
+  transition: 0.5s linear;
+}
+.container main .right form button:focus {
+  left: 100px;
+}
+.container .socal {
+  display: flex;
+  gap: 20px;
+}
+.container .socal i {
+  cursor: pointer;
+  transition: 0.35s;
+}
+.container .socal i:hover {
+  color: #de591c;
+}
+
+/* navbar */
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-inline: 10px;
+}
+
+.nav-logo {
+  width: 70px;
+  height: 50px;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-wrapper ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+.nav-wrapper ul li a {
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  width: 120px;
+  font-size: 1.7rem;
+}
+
+.navbar ul {
+  position: relative;
+}
+
+.navbar .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  transition: 0.5s ease 0s;
+  border-radius: 8px;
+}
+
+.navbar ul li:nth-child(1):hover ~ .animation {
+  width: 120px;
+  left: 0;
+  background-color: var(--mainColor);
+}
+
+.navbar ul li:nth-child(2):hover ~ .animation {
+  width: 120px;
+  left: 120px;
+  background-color: var(--mainColor);
+}
+
+.navbar ul li:nth-child(3):hover ~ .animation {
+  width: 120px;
+  left: 240px;
+  background-color: var(--mainColor);
+}
+
+.navbar ul li:nth-child(4):hover ~ .animation {
+  width: 120px;
+  left: 360px;
+  background-color: var(--mainColor);
+}
+
+.nav-search {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-search {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.nav-search input {
+  border: none;
+  color: #eee;
+  padding: 5px;
+}
+
+.nav-search input::placeholder {
+  color: #bbb;
+}
+
+.nav-search a {
+  display: inline-block;
+  height: 100%;
+}
+
+.nav-search .nav-search-btn {
+  padding-inline: 15px;
+  height: 100%;
+  color: #eee;
+  background-color: var(--mainColor);
+  border-radius: 4px;
+}
+
+.nav-search-btn i {
+  font-size: 1.9rem;
+}
+
+/* nav responsive */
+.nav-resp {
+  position: fixed;
+  top: 150px;
+  left: 5px;
+  bottom: 150px;
+  z-index: 999;
+  width: 50px;
+  background-color: var(--mainColor);
+  border-radius: 10px;
+  box-sizing: initial;
+  border-left: 5px solid var(--mainColor);
+  transition: width 0.5s;
+  display: none;
+  overflow: hidden;
+}
+
+.nav-resp ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.nav-resp ul li {
+  position: relative;
+  list-style-type: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.nav-resp ul li.active {
+  background-color: #fff;
+}
+
+.nav-resp ul li.active a {
+  color: #000;
+}
+
+.nav-resp ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-resp ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.nav-resp ul li a .icon i {
+  font-size: 2.5rem;
+}
+
+.nav-resp ul li .title {
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  white-space: normal;
+}
+
+.nav-toggle {
+  position: fixed;
+  top: 90px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--mainColor);
+  cursor: pointer;
+  z-index: 999;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.nav-toggle i {
+  font-size: 25px;
+  color: white;
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    padding: 100px;
+  }
+  .container main {
+    flex-direction: column-reverse;
+  }
+  .nav-wrapper .navbar {
+    display: none;
+  }
+  .nav-resp {
+    display: block;
+  }
+  .nav-toggle {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
