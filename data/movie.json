@@ -392,7 +392,7 @@
     "time": "102 min",
     "rate": "6.8",
     "quality": "FHD",
-    "kind": "popular",
+    "kind": "new",
     "category": "show"
   },
   {
@@ -448,28 +448,6 @@
     "rate": "7.1",
     "quality": "4K",
     "kind": "popular",
-    "category": "film"
-  },
-  {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
-    "year": "2023",
-    "time": "102 min",
-    "rate": "...",
-    "quality": "4K",
-    "kind": "coming",
-    "category": "film"
-  },
-  {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
-    "year": "2023",
-    "time": "102 min",
-    "rate": "...",
-    "quality": "4K",
-    "kind": "coming",
     "category": "film"
   },
   {
