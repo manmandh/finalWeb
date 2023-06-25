@@ -43,7 +43,7 @@ fetch(film_url)
         <div class="desc">
           ${element.desc}
         </div>
-        <button class="watch">Remind me</button>
+        <button class="watch">Watch now</button>
       </div>
       </div>
       <div class="newFilm-content">

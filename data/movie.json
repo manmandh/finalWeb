@@ -205,7 +205,7 @@
     "time": "111 min",
     "rate": "8.5",
     "quality": "FHD",
-    "kind": "top",
+    "kind": "popular",
     "category": "film"
   },
   {
@@ -260,7 +260,7 @@
     "time": "90 min",
     "rate": "8",
     "quality": "FHD",
-    "kind": "top",
+    "kind": "popular",
     "category": "film"
   },
   {
@@ -271,7 +271,7 @@
     "time": "102 min",
     "rate": "8.8",
     "quality": "FHD",
-    "kind": "top",
+    "kind": "popular",
     "category": "film"
   },
   {
@@ -374,14 +374,80 @@
     "category": "anime"
   },
   {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
+    "name": "XXX: Return Of Xander Cage",
+    "image": "../assets/returnOfXander.jpg",
+    "desc": "Mười lăm năm trước, khi các điệp viên của CIA liên tục bị thủ tiêu vì những hành động tôi-là-cớm-nè giữa ổ tội phạm, Augustus Gibbons đã xuất hiện và đề xuất một dự án mang tính đột phá. Thay vì “thả con chuột vào ổ rắn”, để các điệp viên tiếp tục thất thủ và bị sát hại, Gibbons đã chọn ra những tội phạm, nửa dụ dỗ nửa ép buộc chúng trở thành những điệp viên của CIA. Thả một con rắn vào ổ rắn và để chúng xử nhau.",
+    "year": "2017",
+    "time": "107 min",
+    "rate": "7.2",
+    "quality": "FHD",
+    "kind": "popular",
+    "category": "film"
+  },
+  {
+    "name": "Running Man Hàn Quốc",
+    "image": "../assets/runningMan.jpg",
+    "desc": "Running Man (tiếng Triều Tiên: 런닝맨) là chương trình tạp kỹ thực tế của Hàn Quốc, là một phần trong chương trình Good Sunday phát trên đài SBS. Chương trình được phát sóng lần đầu tiên vào ngày 11 tháng 7 năm 2010 và vẫn đang phát sóng tới hiện nay. Đây là một chương trình \"hành động đô thị\" chưa từng có và chương trình tập trung vào môi trường thành thị. Đây là chương trình với sự trở lại của Yoo Jae-suk sau khi anh rời chương trình Family Outing của Good Sunday trong tháng 2 năm 2010.",
+    "year": "2010",
+    "time": "102 min",
+    "rate": "6.8",
+    "quality": "FHD",
+    "kind": "popular",
+    "category": "show"
+  },
+  {
+    "name": "Nope",
+    "image": "../assets/nope.jpg",
+    "desc": "Kịch bản xoay quanh cặp anh em OJ Haywood (Daniel Kaluuya đóng) và Emerald Haywood (Keke Palmer), tiếp quản khu trang trại nuôi ngựa ở Agua Dulce sau khi cha qua đời một cách bí ẩn vì bị những vật thể lạ từ trên trời rơi trúng. Họ cũng tiếp nối nghề huấn luyện động vật phục vụ các đoàn phim ở Hollywood, lĩnh vực đang dần trở nên lạc hậu vì sự thịnh hành của công nghệ kỹ xảo CGI.",
+    "year": "2022",
+    "time": "141 min",
+    "rate": "6.2",
+    "quality": "FHD",
+    "kind": "popular",
+    "category": "film"
+  },
+  {
+    "name": "M3Gan",
+    "image": "../assets/m3gan.jpg",
+    "desc": "M3GAN là một điều kỳ diệu của trí tuệ nhân tạo, một con búp bê sống động như thật được lập trình để trở thành người bạn đồng hành tốt nhất của trẻ và cha mẹ. Được thiết kế bởi Gemma, một kỹ sư thiết kế người máy xuất sắc, M3GAN có thể nghe, xem và học hỏi trong suốt quá trình nó đóng vai trò là người bạn và người thầy, người đồng hành và người bảo vệ cho cả gia đình. Khi Gemma bất đắc dĩ trở thành người chăm sóc cho cô cháu gái 8 tuổi của mình, cô quyết định đưa cho cô bé một nguyên mẫu M3GAN, một quyết định dẫn đến một kết quả vượt ngoài mọi sự dự tính của cô.",
     "year": "2023",
     "time": "102 min",
-    "rate": "...",
+    "rate": "6.4",
+    "quality": "FHD",
+    "kind": "popular",
+    "category": "film"
+  },
+  {
+    "name": "The Forever Puge",
+    "image": "../assets/theForeverPurge.jpg",
+    "desc": "Cuộc Thanh Trừng Vĩnh Cửu sẽ tiếp nối các sự kiện đã xảy ra trong phần thứ 3 -The Purge: Election Year-ra mắt năm 2016. Lúc này, sự kiện Ngày thanh trừng đã bị dẹp bỏ. Phần mới sẽ theo chân cặp vợ chồng người Mexico là Adela (Ana de la Reguera thủ vai) và Juan (Tenoch Huerta)tìm cách trốn thoát khỏi một băng đảng buôn ma túy. Trong cuộc trốn chạy, họ vô tình bị kẹtlại ở một trang trại tại Texas (Hoa Kỳ). Hóa ra nơi đây vẫn còn “lén lút” thực hiện các nghi lễ thanh trừng một cách bất hợp pháp và buộc cặp đôi phải đưa ra những quyết định táo bạo để bảo vệ sự an toàn cho mình.",
+    "year": "2021",
+    "time": "103 min",
+    "rate": "5.4",
+    "quality": "FHD",
+    "kind": "popular",
+    "category": "film"
+  },
+  {
+    "name": "My Fault",
+    "image": "../assets/myfault.jpg",
+    "desc": "Lỗi Của Tôi – My Fault (2023) nói về Noah phải bỏ lại thị trấn, bạn trai và bạn bè của mình để chuyển đến dinh thự của người chồng mới giàu có của mẹ cô. Cô ấy gặp Nick, anh kế mới của cô ấy. Họ bí mật yêu nhau điên cuồng.",
+    "year": "2023",
+    "time": "102 min",
+    "rate": "6.3",
     "quality": "4K",
-    "kind": "coming",
+    "kind": "popular",
+    "category": "film"
+  },
+  {
+    "name": "Extraction 2",
+    "image": "../assets/extraction2.jpg",
+    "desc": "Tyler Rake: Nhiệm Vụ Giải Cứu 2 kể về sau khi suýt chết, đặc công ưu tú Tyler Rake nhận một nhiệm vụ nguy hiểm khác: giải cứu gia đình đang bị giam giữ của tay xã hội đen tàn nhẫn.",
+    "year": "2023",
+    "time": "123 min",
+    "rate": "7.1",
+    "quality": "4K",
+    "kind": "popular",
     "category": "film"
   },
   {
@@ -407,36 +473,36 @@
     "category": "film"
   },
   {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
+    "name": "65",
+    "image": "../assets/65.jpg",
+    "desc": "65 - Trận Chiến Thời Tiển Sử kể về sau cú va chạm thảm khốc, tàu vũ trụ của Mills (Adam Driver) bay thẳng đến một hành tinh không xác định. Với kiến thức nhạy bén của mình, Mills nhanh chóng nhận ra hành tinh không xác định này chính là Trái Đất của 65 triệu năm trước. Liệu với những công nghệ tương lai đang có, Mills có thể sống sót trước những loài khủng long và sinh vật tiền sử đáng sợ? 65 - Trận Chiến Thời Tiền Sử đến từ bộ đôi biên kịch từng tạo nên “A Quiet Place” và được nhào nặn bởi chính NSX nổi tiếng Sam Raimi.",
     "year": "2023",
-    "time": "102 min",
-    "rate": "...",
+    "time": "93 min",
+    "rate": "5.4",
     "quality": "4K",
-    "kind": "coming",
+    "kind": "popular",
     "category": "film"
   },
   {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
-    "year": "2023",
-    "time": "102 min",
-    "rate": "...",
+    "name": "The Batman 2022",
+    "image": "../assets/thebatman.jpg",
+    "desc": "Phim lấy bối cảnh tại thế giới ngầm của thành phố Gotham, khi nơi đây xuất hiện một tên tội phạm giết người khét tiếng Riddler, hắn chuyên sát hại những tên chính trị gia lớn của thành phố. Sau mỗi vụ án giết người, hắn đều để lại những câu hỏi hóc búa cho Batman. Lúc này anh chàng hiệp sĩ bóng đêm Batman, bắt đầu tham gia vào cuộc điều tra về những chứng cứ mà tên Riddler để lại cho mình. Dần dần anh phát hiện ra những sự thật động trời về những kẻ tham nhũng và có liên quan đến gia đình của anh.",
+    "year": "2022",
+    "time": "175 min",
+    "rate": "7.8",
     "quality": "4K",
-    "kind": "coming",
+    "kind": "popular",
     "category": "film"
   },
   {
-    "name": "Insidious - Quỷ Quyệt Cửa Đỏ Vô Định",
-    "image": "../assets/insidious.jpg",
-    "desc": "Have no content.",
-    "year": "2023",
+    "name": "Through My Window",
+    "image": "../assets/through_my_window.jpg",
+    "desc": "Through My Window kể về Raquel thích chàng hàng xóm từ lâu, và giờ tình ý ấy bỗng tiến triển xa hơn khi anh bắt đầu có tình cảm với cô – bất chấp sự phản đối của gia đình.",
+    "year": "2022",
     "time": "102 min",
-    "rate": "...",
-    "quality": "4K",
-    "kind": "coming",
+    "rate": "6.2",
+    "quality": "FHD",
+    "kind": "popular",
     "category": "film"
   }
 ]
