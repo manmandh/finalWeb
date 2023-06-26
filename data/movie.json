@@ -118,7 +118,8 @@
     "rate": "8.5",
     "quality": "4K",
     "kind": "new",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/ironman.mp4"
   },
   {
     "name": "Thor",
