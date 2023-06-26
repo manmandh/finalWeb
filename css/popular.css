@@ -626,4 +626,7 @@ footer .footer-bottom {
   footer .footer-bottom ul li {
     font-size: 13px;
   }
+  .list-wrapper {
+    padding-inline: 70px;
+  }
 }

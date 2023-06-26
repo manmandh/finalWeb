@@ -379,6 +379,7 @@ header .nav-resp ul li .title {
 
 .list-container .list-title h2 {
   font-size: 30px;
+  font-family: var(--spectralFont);
 }
 
 .list-wrapper {
@@ -624,5 +625,8 @@ footer .footer-bottom {
   footer .footer-top ul li a,
   footer .footer-bottom ul li {
     font-size: 13px;
+  }
+  .list-wrapper {
+    padding-inline: 70px;
   }
 }

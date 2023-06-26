@@ -277,6 +277,7 @@ body {
   transition: width 0.5s;
   display: none;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 .nav-resp ul {
@@ -371,6 +372,27 @@ body {
   }
   .nav-toggle {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  main {
+    width: 100%;
+  }
+  .container {
+    padding: 70px;
+  }
+  .container main .left .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .container main .left .email {
+    font-size: 20px;
+  }
+  .container main .right form button {
+    width: 70px;
+    height: 70px;
+    font-size: 10px;
   }
 }
 

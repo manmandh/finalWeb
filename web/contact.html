@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="shortcut icon" href="../assets/myLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/load.css">
     <link rel="stylesheet" href="../css/scrollbar.css">
     <link rel="stylesheet" href="../css/contact.css" />
     <link
@@ -14,6 +15,14 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
+    <div id="load">
+      <div class="container">
+        <div class="loader"><span></span></div>
+        <div class="loader"><span></span></div>
+        <div class="loader"><i></i></div>
+        <div class="loader"><i></i></div>
+      </div>
+    </div>
     <nav class="nav-wrapper">
       <div class="nav-logo">
         <img src="../assets/myLogo.png" />
@@ -108,7 +117,7 @@
         <i class="fa-brands fa-linkedin"></i>
       </div>
     </div>
-
+    <script src="../app/load.js"></script>
     <script src="../app/contact.js"></script>
   </body>
 </html>
