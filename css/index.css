@@ -595,11 +595,16 @@ header .nav-search-btn i {
   user-select: none;
 }
 
+.newFilm-list-wrapper .newFilm-img .layer button a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
 .newFilm-list-wrapper .newFilm-img .layer button {
   text-align: center;
   color: #eee;
   border: 2px solid #eee;
-  padding: 10px;
   border-radius: 30px;
   transition: var(--transition);
   width: 60%;
@@ -647,6 +652,9 @@ header .nav-search-btn i {
   font-size: 2.8rem;
   font-family: var(--spectralFont);
   text-transform: uppercase;
+}
+.film-introduce-container .left h3 {
+  font-family: var(--spectralFont);
 }
 
 .film-introduce-container .left .film-img {

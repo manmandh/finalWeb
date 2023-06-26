@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film</title>
+    <link rel="shortcut icon" href="../assets/myLogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+    <link rel="stylesheet" href="../css/film.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-wrapper">
+        <div class="nav-logo">
+          <img src="../assets/myLogo.png" />
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../web/contact.html">Contact</a></li>
+            <li><a href="../web/coming.html ">Coming</a></li>
+            <li><a href="../web/popular.html">Popular</a></li>
+            <div class="animation start-home"></div>
+          </ul>
+        </div>
+        <div class="nav-search">
+          <input type="text" placeholder="Search film" />
+          <a href="#"
+            ><button class="nav-search-btn">
+              <i class="bx bx-search-alt"></i></button
+          ></a>
+        </div>
+        <div class="navbar nav-account">
+          <ul>
+            <li><a href="../web/login.html">Sign in</a></li>
+            <li><a href="../web/register.html">Sign up</a></li>
+            <div class="animation start-home"></div>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- nav button for toggling -->
+
+      <div class="nav-toggle"><i class="bx bx-menu"></i></div>
+
+      <!-- nav responsive -->
+
+      <div class="nav-resp">
+        <ul>
+          <li class="list active">
+            <a href="../index.html">
+              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="title">Home</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="../web/contact.html">
+              <span class="icon"
+                ><i class="fa-regular fa-address-book"></i
+              ></span>
+              <span class="title">Contact</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="../web/coming.html">
+              <span class="icon"><i class="bx bx-timer"></i></span>
+              <span class="title">Coming</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="../web/popular.html">
+              <span class="icon"><i class="fa-solid fa-fire"></i></span>
+              <span class="title">Popular</span>
+            </a>
+          </li>
+          <div class="animation start-home"></div>
+          <hr />
+          <li class="list">
+            <a href="../web/login.html">
+              <span class="icon"
+                ><i class="fa-solid fa-arrow-right-to-bracket"></i
+              ></span>
+              <span class="title">Sign in</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="../web/login.html">
+              <span class="icon"><i class="fa-regular fa-registered"></i></span>
+              <span class="title">Sign up</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- intro website -->
+
+    <div class="intro">
+      <h2 class="title">Enjoy the movie</h2>
+      <p class="more">If you have any trouble. Give me some feedback in the end of page.😵‍💫😵‍💫😵‍💫</p>
+      <p class="friend">
+        Invite your friends and watch the movie together in this page now. ❤️❤️❤️
+      </p>
+    </div>
+
+    <!-- main film -->
+
+    <div class="main-film">
+      <div class="main-bg">
+        <img src="../assets/dragonball.jpg" alt="" />
+        <div class="main-content">
+          <h3 class="name">DB Super heroes</h3>
+          <div class="info">
+            <span class="quality">4K</span>
+            <span class="time"><i class="bx bx-time"></i>147 min</span>
+            <span class="rate"><i class="bx bx-star"></i>8.8</span>
+          </div>
+          <p class="desc">
+            Dragon Ball Super: Super Hero là một bộ manga Nhật Bản do Toyotarou
+            viết và minh họa. Đây là một phần spin-off của loạt anime Dragon Ball
+            Super và là một tiếp nối của manga Dragon Ball gốc. Câu chuyện theo sự
+            phiêu lưu của Goku và những người bạn của anh ta khi họ bảo vệ Trái
+            Đất chống lại nhiều đe dọa và tham gia trận chiến với kẻ thù mạnh mẽ.
+            Bộ phim bắt đầu với những phần hậu trường của Giải đấu sức mạnh, một
+            giải đấu được tổ chức để xác định những sinh vật mạnh nhất trong vũ
+            trụ. Sau khi đánh bại thần ác Zamasu và khôi phục hòa bình cho vũ trụ,
+            Goku và những người bạn của anh ta trở lại cuộc sống bình thường của
+            họ trên Trái Đất. Tuy nhiên, họ sớm phải đối mặt với những thách thức
+            mới khi những kẻ thù mạnh mẽ đến trên sao Hỏa, muốn kiểm tra sức mạnh
+            của họ và phá hủy Trái Đất.
+          </p>
+        </div>
+        <!-- button for playing video -->
+        <button id="play-btn" class="play-btn"><i class="fa-solid fa-play"></i></button>
+        
+        <!-- video container  -->
+        <div class="video-cotainer">
+          <div class="video">
+            <video id="video" src="../assets/video/dragonball.mp4" controls></video>
+          </div>
+          <div class="close-video-btn" id="close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- comment -->
+
+    <div class="comment-container">
+      <h4 class="title"><i class="fa-solid fa-comment-dots"></i>Bình luận(4)</h4>
+      <div class="comment-list">
+        <div class="comment-item">
+          <span class="avt">
+            <img src="../assets/avt1.jpg" alt="">
+          </span>
+          <div class="content">
+            <span class="name">Khánh Nguyễn</span>
+            <p class="text">Phim bánh cuốn quá, coi cực dính luôn!!</p>
+            <div class="time">1 hour ago</div>
+          </div>
+        </div>
+        <div class="comment-item">
+          <span class="avt">
+            <img src="../assets/avt3.jpg" alt="">
+          </span>
+          <div class="content">
+            <span class="name">Cu Tí Hàng Xóm</span>
+            <p class="text">Đồ họa đẹp thật, không uổng công ngồi xem</p>
+            <div class="time">1 hour ago</div>
+          </div>
+        </div>
+        <div class="comment-item">
+          <span class="avt">
+            <img src="../assets/avt2.jpg" alt="">
+          </span>
+          <div class="content">
+            <span class="name">Thơ Nguyễn</span>
+            <p class="text">Bộ này chắc là đỉnh nhất rồi, miễn bàn. Xem lại lần thứ 4 vẫn thấy hay</p>
+            <div class="time">2 hour ago</div>
+          </div>
+        </div>
+        <div class="comment-item">
+          <span class="avt">
+            <img src="../assets/avt4.jpg" alt="">
+          </span>
+          <div class="content">
+            <span class="name">Cậu Vàng</span>
+            <p class="text">Tưởng không hay mà ai ngờ hay không tưởng</p>
+            <div class="time">2 hour ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+
+    <footer>
+      <div class="footer-top">
+        <div class="logo">
+          <img src="../assets/myLogo.png" alt="Logo" />
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../web/contact.html">Contact</a></li>
+            <li><a href="../web/coming.html">Coming</a></li>
+            <li><a href="../web/popular.html">Popular</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-bottom">
+        <div class="quick-link">
+          <ul>
+            <li>FAQ</li>
+            <li>help center</li>
+            <li>terms of use</li>
+            <li>privacy</li>
+          </ul>
+        </div>
+        <div class="socal">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../app/film.js"></script>
+  </body>
+</html>

@@ -349,7 +349,8 @@
     "rate": "7.1",
     "quality": "FHD",
     "kind": "top",
-    "category": "anime"
+    "category": "anime",
+    "mp4": "../assets/video/dragonball.mp4"
   },
   {
     "name": "Onepiece",

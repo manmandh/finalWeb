@@ -54,32 +54,33 @@ filterButton.forEach((btn) => {
       }
     });
     btn.classList.add("active");
-    filterFilm(btn.getAttribute('fill'));
+    filterFilm(btn.getAttribute("fill"));
   });
 });
 
-let film_url = "./data/movie.json"
-let cards = document.querySelector('.newFilm-list-wrapper');
+let film_url = "./data/movie.json";
+let cards = document.querySelector(".newFilm-container .newFilm-list-wrapper");
 
 function filterFilm(kind) {
   let check = false;
-  cards.innerHTML = '';
+  cards.innerHTML = "";
   fetch(film_url)
     .then((Response) => Response.json())
     .then((data) => {
       data.forEach((element, i) => {
-        if (element.category === kind && element.kind === 'new') {
+        if (element.category === kind && element.kind === "new") {
           check = true;
           let card = document.createElement("div");
+          card.setAttribute("name", element.name);
           card.classList.add("newFilm-item");
           card.innerHTML = `
         <div class="newFilm-img">
-        <img src="${element.image.replace('.', '')}" alt="" />
+        <img src="${element.image.replace(".", "")}" alt="" />
         <div class="layer">
           <div class="desc">
             ${element.desc}
           </div>
-          <button class="watch">Remind me</button>
+          <button class="watch"><a href="./web/film.html?name=${element.name}">Watch now</a></button>
         </div>
         </div>
         <div class="newFilm-content">
@@ -104,16 +105,60 @@ function filterFilm(kind) {
         }
       });
       if (!check) {
-        let noti = document.createElement('div');
-        noti.style.color = '#fff';
-        noti.style.textAlign = 'center';
-        noti.innerText = 'Have no result';
+        let noti = document.createElement("div");
+        noti.style.color = "#fff";
+        noti.style.textAlign = "center";
+        noti.innerText = "Have no result";
         cards.appendChild(noti);
       }
     });
 }
 
+filterFilm("film");
+
 window.onload = () => {
   load.style.opacity = 0;
-  load.style.visibility = 'hidden';
-}
+  load.style.visibility = "hidden";
+};
+
+let topCard = document.querySelector(".top-rated-movie .newFilm-list-wrapper");
+
+fetch(film_url)
+  .then((Response) => Response.json())
+  .then((data) => {
+    data.forEach((element, i) => {
+      if (element.kind === "top" && element.category === 'film') {
+        let card = document.createElement("div");
+        card.classList.add("newFilm-item");
+        card.innerHTML = `
+        <div class="newFilm-img">
+        <img src="${element.image.replace(".", "")}" alt="" />
+        <div class="layer">
+          <div class="desc">
+            ${element.desc}
+          </div>
+          <button class="watch"><a href="./web/film.html?name=${element.name}">Watch now</a></button>
+        </div>
+        </div>
+        <div class="newFilm-content">
+          <div class="top">
+            <span class="name">${element.name}</span>
+            <span class="year">${element.year}</span>
+          </div>
+          <div class="bottom">
+            <div class="quality">${element.quality}</div>
+            <div class="desc">
+              <span class="time"
+                ><i class="bx bx-time"></i><span>${element.time}</span></span
+              >
+              <span class="rate"
+                ><i class="bx bx-star"></i><span>${element.rate}</span></span
+              >
+            </div>
+          </div>
+        </div>
+        `;
+        topCard.appendChild(card);
+      }
+    });
+  });
