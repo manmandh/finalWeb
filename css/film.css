@@ -439,13 +439,13 @@ header .nav-resp ul li .title {
   width: 100%;
   display: flex;
   gap: 20px;
-  align-items: center;
 }
 
 .comment-list .comment-item .avt {
   display: inline-block;
   width: 50px;
   height: 50px;
+  flex-shrink: 0;
 }
 
 .comment-list .comment-item .avt img {
@@ -557,11 +557,13 @@ footer .footer-bottom {
   }
   .nav-toggle {
     display: flex;
-  } 
-  .main-film .main-content {
-    position: unset;
-    width: 100%;
-    margin-top: 20px;
+  }
+  .main-film .main-content .name {
+    font-size: 18px;
+  }
+  .main-film .main-content .info,
+  .main-film .main-content .desc{
+    font-size: 13px;
   }
 }
 
@@ -593,6 +595,31 @@ footer .footer-bottom {
   .comment-container {
     padding-inline: 70px;
   }
+  .main-film .main-content .name {
+    font-size: 20px;
+  }
+  .main-film .main-content .info {
+    font-size: 14px;
+  }
+  .main-film .main-content .desc {
+    font-size: 14px;
+    -webkit-line-clamp: 3;
+  }
+  .main-film .main-content {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .main-film .play-btn {
+    z-index: 2;
+  }
+  .intro .title {
+    font-size: 18px;
+  }
+  .intro .more,
+  .intro .friend {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -602,5 +629,32 @@ footer .footer-bottom {
   }
   .list-wrapper {
     padding-inline: 70px;
+  }
+  .main-film .main-content .name {
+    font-size: 15px;
+  }
+  .main-film .main-content .info {
+    font-size: 10px;
+  }
+  .main-film .main-content .desc {
+    font-size: 10px;
+    -webkit-line-clamp: 3;
+  }
+  .intro .title {
+    font-size: 15px;
+  }
+  .intro .more,
+  .intro .friend {
+    font-size: 12px;
+  }
+  .comment-list .comment-item .avt {
+    width: 30px;
+    height: 30px;
+  }
+  .comment-list .comment-item .name {
+    font-size: 12px;
+  }
+  .comment-list .comment-item .text {
+    font-size: 10px;
   }
 }

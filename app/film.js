@@ -1,4 +1,8 @@
 window.onload = () => {
+  // loading
+  load.style.opacity = 0;
+  load.style.visibility = 'hidden';
+
   // Lấy ID sản phẩm từ Query Parameters
   var queryParams = new URLSearchParams(window.location.search);
   var productId = queryParams.get("name");
@@ -51,7 +55,7 @@ window.onload = () => {
       console.log(close);
 
       playBtn.addEventListener("click", () => {
-        video.style.zIndex = "2";
+        video.style.zIndex = "3";
       });
 
       close.addEventListener("click", () => {

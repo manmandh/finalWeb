@@ -130,7 +130,8 @@
     "rate": "9.5",
     "quality": "4K",
     "kind": "new",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/thor.mp4"
   },
   {
     "name": "Lật mặt 6",
@@ -141,7 +142,8 @@
     "rate": "8",
     "quality": "FHD",
     "kind": "new",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/latmat.mp4"
   },
   {
     "name": "Spider man",
@@ -152,7 +154,8 @@
     "rate": "9",
     "quality": "FHD",
     "kind": "new",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/spiderman.mp4"
   },
   {
     "name": "The Flash",
@@ -163,7 +166,8 @@
     "rate": "8.8",
     "quality": "4K",
     "kind": "new",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/theflash.mp4"
   },
   {
     "name": "Tà chú cấm",
@@ -218,7 +222,8 @@
     "rate": "9",
     "quality": "4K",
     "kind": "top",
-    "category": "film"
+    "category": "film",
+    "mp4": "../assets/video/mystery2.mp4"
   },
   {
     "name": "Black Adam",
